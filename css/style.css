@@ -1,0 +1,192 @@
+@charset "UTF-8";
+
+body{
+  background-color: #f5f3eb;
+}
+
+.wrapper{
+  margin:0 auto;
+  width:900px;
+}
+
+
+
+/* index */
+ 
+h2{
+  color:#442220;
+  font-size: 18px;
+  border-bottom: 2px #442220 dotted;
+  margin: 20px 0;
+  padding:10px;
+}
+
+p{
+  line-height: 160%;
+}
+a:link{
+  color:#6aa4d6;
+}
+
+a:visited{
+  color:#6aa4d6
+}
+
+a:hover{
+  color:#4f7697;
+}
+
+a:active{
+  color:#aed3f2;
+}
+h1{
+  text-align:center;
+  margin:30px 0 30px;
+}
+
+img{
+  border-style: none;
+}
+
+#nav li{
+  list-style: none;
+  display: inline;
+  padding-right:30px;
+}
+
+#nav {
+  padding:15px 30px 10px 30px;
+  background-image:url(../image/menu-bg.png);
+}
+
+#nav a{
+  color:#fff;
+  text-decoration: none;
+}
+
+#nav a:hover{
+ color:#e4dbb9; 
+}
+
+.keyvisual{
+  margin: 20px 0 0 0;
+}
+
+/* about */
+
+.float img{
+  float:left;
+  padding-right: 1em;
+}
+
+.clear{
+  clear: both;
+}
+
+.info{
+  border-collapse: collapse;
+  border: 1px solod #b78c5f;
+}
+
+ .info th,
+.info td{
+  padding:8px;
+  border:1px solid #d6c2b5;
+  text-align:left;
+  vertical-align: middle;
+}
+ .info th{
+  background-color: #c99e73;
+  color:#442220;
+}
+
+/* menu */
+
+.menu-block{
+  overflow: hidden;
+  zoom:1;
+}
+
+.menu-left{
+  float:left;
+  width:280px;
+  margin-right: 20px;
+}
+
+.menu-right{
+  float:left;
+  width:600px;
+  
+}
+
+table .menu-all{
+  border: none;
+  border-collapse: collapse;
+}
+
+table .menu-all td{
+  padding:0;
+}
+
+table .menu-all td.photo{
+  padding: 0 10px 10px 0;
+}
+.menu-right h3{
+  margin:20px 0;
+  text-align: center;
+  font-size: 16px;
+  color:#442220;
+}
+
+.menu-right p{
+  text-align: center;
+  font-size: 12px;
+}
+/* access */
+
+.access{
+  text-align: center;
+} 
+
+/* contact */
+
+form div {
+  padding:12px;
+  border-bottom: 1px dashed #d6c2b5;
+}
+
+select{
+  width: 30em;
+}
+
+label{
+  columns: #442244;
+}
+
+input[name=subject]{
+  width:30em;
+}
+
+textarea{
+  width: 30em;
+  height:6em;
+}
+
+input[type=submit]{
+  margin: 20px 12px;
+  width:30em;
+}
+
+
+/* rooter */
+
+#footer{
+  background-image: url(../image/footer-bg.png);
+  background-repeat: repeat-x;
+  margin-top:30px;
+  padding:20px 0 20px;
+  font-size: smaller;
+  color:#442220;
+  text-align: center;
+  clear: both;
+}
